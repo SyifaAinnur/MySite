@@ -20,7 +20,7 @@ const LogoComponent = lazy(() => import("./../subComponents/LogoComponent"));
 const MainContainer = styled(motion.div)`
   background: ${(props) => props.theme.body};
   width: 100vw;
-  height: 95vh;
+  height: 90vh;
   position: relative;
   overflow: hidden;
 
