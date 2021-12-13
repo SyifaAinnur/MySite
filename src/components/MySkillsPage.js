@@ -28,7 +28,7 @@ const Box = styled(motion.div)`
             flex-direction:column;  
             padding:8rem 0;
 height:auto;
-            &>*:nth-child(5){
+            &>*:nth-child(6){
               margin-bottom:5rem;
             }
            
@@ -48,7 +48,7 @@ const Main = styled(motion.div)`
   background-color: ${(props) => props.theme.body};
   padding: 2rem;
   width: 23vw;
-  height: 65vh;
+  height: 6vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
