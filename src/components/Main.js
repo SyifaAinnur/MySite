@@ -20,9 +20,28 @@ const LogoComponent = lazy(() => import("./../subComponents/LogoComponent"));
 const MainContainer = styled(motion.div)`
   background: ${(props) => props.theme.body};
   width: 100vw;
-  height: 93vh;
+  height: 100vh;
   position: relative;
   overflow: hidden;
+
+  MainContainer {
+    ${mediaQueries(60)`
+      height: 93vh;
+
+    `};
+    ${mediaQueries(50)`
+      height: 93vh;
+
+    `};
+    ${mediaQueries(40)`
+      height: 93vh;
+
+    `};
+    ${mediaQueries(30)`
+      height: 93vh;
+
+    `};
+  }
 
   h2,
   h3,
