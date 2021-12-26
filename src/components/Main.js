@@ -23,26 +23,6 @@ const MainContainer = styled(motion.div)`
   height: 100vh;
   position: relative;
   overflow: hidden;
-
-    ${mediaQueries(60)`
-      height: 93vh;
-
-    `};
-
-    ${mediaQueries(50)`
-      height: 93vh;
-
-    `};
-
-    ${mediaQueries(40)`
-      height: 93vh;
-
-    `};
-
-    ${mediaQueries(30)`
-      height: 93vh;
-
-    `};
   }
 
   h2,
